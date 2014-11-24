@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Jason Rylance
+tagline:          'Articles written by Jason Rylance'
+description:      'Articles written by the lead developer for <a href="http://www.losttie.com" target="_blank">Lost Tie</a>, a web development company. Github, contact, and more <a href="http://ecnalyr.com/" target="_blank">here</a>.'
+url:              http://hyde.getpoole.com
+baseurl:          /
+
+author:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
