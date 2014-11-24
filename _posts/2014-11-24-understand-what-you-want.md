@@ -13,7 +13,7 @@ Both parties have good intentions, but both parties need to know what the wants 
 
 A project I'm working on has a 
 
-![duckduckgo pizza locations](public/duckduckgo_pizza.png "DuckDuckGo Pizza Locations")
+![duckduckgo pizza locations](/public/duckduckgo_pizza.png "DuckDuckGo Pizza Locations")
 
 * Complete Jekyll setup included (layouts, config, [404](/404), [RSS feed](/atom.xml), posts, and [example page](/about))
 * Mobile friendly design and development
