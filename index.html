@@ -1,37 +1,13 @@
----
-layout: default
-title: Home
----
-
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome, Eric, to Web Development!</title>
+</head>
+<body>
+<h1>Welcome, Eric, to Web Development!</h1>
+<p>Hi Eric! We're so excited to have you here and help you get started with web development! This is where you'll learn
+    to build cool websites and apps that people all around the world can use.</p>
+<p>Don't worry if you've never done this before. Just remember to have fun and be creative!</p>
+<p>Let's get coding!</p>
+</body>
+</html>
