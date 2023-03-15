@@ -2,12 +2,64 @@
 <html>
 <head>
     <title>Welcome, Eric, to Web Development!</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Space-themed background */
+        body {
+            background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+        }
+
+        /* Container for centering the content */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+
+        /* Headings and paragraph styles */
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        /* Space-themed text highlight */
+        span {
+            background-image: linear-gradient(120deg, #f0f2a6, #a8edea);
+            background-repeat: no-repeat;
+            background-size: 100% 0.2em;
+            background-position: 0 100%;
+            transition: background-size 0.25s ease-in;
+        }
+
+        span:hover {
+            background-size: 100% 88%;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-<h1>Welcome, Eric, to Web Development!</h1>
-<p>Hi Eric! We're so excited to have you here and help you get started with web development! This is where you'll learn
-    to build cool websites and apps that people all around the world can use.</p>
-<p>Don't worry if you've never done this before. Just remember to have fun and be creative!</p>
-<p>Let's get coding!</p>
+<div class="container">
+    <h1>Welcome, <span>Eric</span>, to Web Development!</h1>
+    <p>Hi <span>Eric</span>! We're so excited to have you here and help you get started with web development! This is
+        where you'll learn
+        to build cool websites and apps that people all around the world can use.</p>
+    <p>Don't worry if you've never done this before. Just remember to have fun and be creative!</p>
+    <p>Let's get coding!</p>
+</div>
 </body>
 </html>
